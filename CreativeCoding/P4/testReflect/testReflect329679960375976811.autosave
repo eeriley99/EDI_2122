@@ -1,0 +1,13 @@
+/**
+ * Test reflecting an image on X axis
+ EER 11/12/21
+ */
+
+
+
+size(800, 800);
+
+fill(255,0,0);
+rect (0,0,50,100);
+scale(11);//flip on X axis
+//image(img,-img.width,img.height);//draw offset
