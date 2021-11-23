@@ -5,9 +5,13 @@ function setup() {
 
 function draw() {
 
-    background(200);
+    background(217, 3, 104);
 
+
+    stroke (130, 2, 99);
   void squ();
+  strokeWeight (1);
+  stroke (251, 139, 36);
   void zigzag();
 
   noLoop ();
