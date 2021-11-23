@@ -1,6 +1,6 @@
 function setup() { //runs once
   createCanvas(720, 720);
-  fill('red');
+  fill('blue');
   strokeWeight(8);
 }
 
