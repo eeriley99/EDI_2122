@@ -4,15 +4,9 @@ function setup() {
 }
 
 function draw() {
-
-    background(191, 49, 0);
-
-  fill (142, 166, 4);
   void squ();
-  strokeWeight (1);
-  stroke (236, 159, 5);
+  strokeWeight (2);
   void zigzag();
-
   noLoop ();
 }
 
