@@ -38,3 +38,7 @@ function squ() {
       }
     }
   }
+
+  function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
