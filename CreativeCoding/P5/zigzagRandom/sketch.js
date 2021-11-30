@@ -1,15 +1,14 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noFill ();
+  background (250, 207, 207);
+  stroke (212, 142, 142);
 }
 
 function draw() {
-
-    background(200);
-
   void squ();
+  strokeWeight (2);
   void zigzag();
-
   noLoop ();
 }
 

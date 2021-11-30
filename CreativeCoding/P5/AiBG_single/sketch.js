@@ -5,7 +5,7 @@ function preload (){
 }
 function setup() { //runs once
   createCanvas(720, 720);
-  fill('yellow');
+  fill('blue');
   strokeWeight(8);
 }
 
