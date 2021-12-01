@@ -14,14 +14,13 @@ gif = loadImage ('assets/AiBG.gif');
 
 function setup() { //runs once
   createCanvas(720, 720);
+  background ('red'),
   fill('red');
   strokeWeight(8);
 }
 
 function draw() {
 
-
-background(220);
 
 translate (60,60);
 //For loop parts:
