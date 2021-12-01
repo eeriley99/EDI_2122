@@ -9,7 +9,7 @@
 let img;//declare image variable
 
 function preload (){
-img = loadImage ('assets/AiBGsingle.png');
+img = loadImage ('assets/AiBG.gif');
 }
 
 function setup() { //runs once
