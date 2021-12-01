@@ -6,10 +6,10 @@
 //replaced the quad shape with image
 // push to GH
 
-let img;//declare image variable
+let gif;//declare image variable
 
 function preload (){
-img = loadImage ('assets/AiBG.gif');
+gif = loadImage ('assets/AiBG.gif');
 }
 
 function setup() { //runs once
@@ -30,7 +30,7 @@ translate (60,60);
 //3)increment
   for (var y = 0; y < 600; y = y + 300) {//loop to create rows in the y direction
      for (var x = 0; x < 600; x = x + 300) {// loop to create a row of squares in the x direction0
-    image (img, x, y);
+    image (gif, x, y);
   }
   }
   noLoop ();
