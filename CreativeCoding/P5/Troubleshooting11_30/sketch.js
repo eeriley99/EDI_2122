@@ -14,7 +14,7 @@ gif = loadImage ('assets/AiBG.gif');
 
 function setup() { //runs once
   createCanvas(720, 720);
-  background ('red'),
+  background ('Thistle'),
   fill('red');
   strokeWeight(8);
 }
