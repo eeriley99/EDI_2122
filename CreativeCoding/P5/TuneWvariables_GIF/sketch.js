@@ -12,7 +12,9 @@ function setup() { //runs once
 
 function draw() {
 
-var num = 10; //variable for the number of squares in the array
+background (255);
+
+var num = 15; //variable for the number of squares in the array
 var sideLen = windowWidth/num;//variable for the side lenth of each square
 
   for (var y = 0; y < windowHeight; y = y + sideLen) {//loop to create rows in the y direction

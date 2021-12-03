@@ -1,11 +1,12 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  noFill ();
-  background (250, 207, 207);
+  createCanvas(2 * windowWidth, 2 * windowHeight);
   stroke (212, 142, 142);
 }
 
 function draw() {
+  background (250, 207, 207);
+  noFill ();
+  strokeWeight (1);
   void squ();
   strokeWeight (2);
   void zigzag();
@@ -37,7 +38,3 @@ function squ() {
       }
     }
   }
-
-  function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
