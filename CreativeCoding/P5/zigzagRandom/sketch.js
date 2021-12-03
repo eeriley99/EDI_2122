@@ -13,6 +13,10 @@ function draw() {
   noLoop ();
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function squ() {
   for (var y = 0; y < windowHeight; y = y + 120){
      for (var x = 0; x < windowWidth; x = x + 120){
