@@ -6,11 +6,10 @@ gif = loadImage ('assets/AiBG75.gif');
 
 function setup() { //runs once
   createCanvas(windowWidth, windowHeight);
-
 }
 
 function draw() {
-
+background ('green');
 translate (-100, -100);
 
 var num = 10; //variable for the number of squares in the grid
