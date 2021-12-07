@@ -2,7 +2,7 @@ var randDrawing;
 
 function preload() { // all photos 150 pixel width
 
-    arm = loadImage('assets/Snowflake1.png');
+    S1 = loadImage('assets/Snowflake1.png');
     shirt = loadImage('assets/shirt.jpg');
     hose = loadImage('assets/hose.jpg');
     hand = loadImage('assets/hand.jpg');
@@ -32,7 +32,7 @@ function draw() {
 
         for (var x = 0; x < windowWidth; x = x + sideLen) { // loop to create a row of squares in the x direction
 
-            var pics = [arm, shirt, hose, hand, feather, cans, firewood, crib, caterpillar, bird];
+            var pics = [S1, shirt, hose, hand, feather, cans, firewood, crib, caterpillar, bird];
 
             quad(x, y,
                 x + sideLen, y,
