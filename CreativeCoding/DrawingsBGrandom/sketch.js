@@ -2,7 +2,7 @@ var randDrawing;
 
 function preload() { // all photos 150 pixel width
 
-    arm = loadImage('Snowflake1.png');
+    arm = loadImage('assets/Snowflake1.png');
     shirt = loadImage('assets/shirt.jpg');
     hose = loadImage('assets/hose.jpg');
     hand = loadImage('assets/hand.jpg');
