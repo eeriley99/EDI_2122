@@ -3,15 +3,7 @@ var randDrawing;
 function preload() { // all photos 150 pixel width
 
     S1 = loadImage('assets/Snowflake1.png');
-    shirt = loadImage('assets/shirt.jpg');
-    hose = loadImage('assets/hose.jpg');
-    hand = loadImage('assets/hand.jpg');
-    feather = loadImage('assets/feather.jpg');
-    cans = loadImage('assets/cans.jpg');
-    firewood = loadImage('assets/firewood.jpg');
-    crib = loadImage('assets/crib.jpg');
-    caterpillar = loadImage('assets/caterpillar.jpg');
-    bird = loadImage('assets/bird.jpg');
+    S2 = loadImage('assets/Snowflake1.png');
 
 }
 
@@ -32,13 +24,13 @@ function draw() {
 
         for (var x = 0; x < windowWidth; x = x + sideLen) { // loop to create a row of squares in the x direction
 
-            var pics = [S1, shirt, hose, hand, feather, cans, firewood, crib, caterpillar, bird];
+            var pics = [S1, S2];
 
             quad(x, y,
                 x + sideLen, y,
                 x + sideLen, y + sideLen,
                 x, y + sideLen);
-            image(pics[int(random(0, 10))], x + (sideLen / 2 - 75), y + (sideLen / 2 - 75));
+            image(pics[int(random(0, 1))], x + (sideLen / 2 - 75), y + (sideLen / 2 - 75));
 
         }
 
