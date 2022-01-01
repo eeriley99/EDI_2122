@@ -1,17 +1,19 @@
 function setup() {
-  createCanvas(2 * windowWidth, 2 * windowHeight);
-  stroke (212, 142, 142);
+  createCanvas (2 * windowWidth, 2 * windowHeight);
+  stroke (0);
 }
 
 function draw() {
-  background (250, 207, 207);
+  background (255);
   noFill ();
   strokeWeight (1);
-  void squ();
+  squ();
   strokeWeight (2);
-  void zigzag();
-  noLoop ();
+  zigzag();
+  noLoop();
 }
+
+
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
