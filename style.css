@@ -22,6 +22,10 @@ h1{
      text-align: center;
 }
 
+p{
+    font-size: 0.875em;
+}
+
 table{
   position: absolute;
   z-index: 1;
@@ -44,9 +48,6 @@ td {
         padding-bottom: calc(50% - 0.5em);
     }
 }
-
-
-
 
 .container{
   position: relative;
