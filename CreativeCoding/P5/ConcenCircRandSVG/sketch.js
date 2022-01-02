@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
 
-  background(255,0,0);
+  background(255);
 
   var windowPad = 40; //padding around circle array
   var windowPane = (cSize - 2 * windowPad); //size of window in pixels
