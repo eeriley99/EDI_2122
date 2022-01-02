@@ -1,7 +1,7 @@
 var cSize = 720; //create canvas size for paper with this variable
 
 function setup() {
-  createCanvas(cSize + cSize/3, cSize);//canvas size is set to 4:3 ratio for 18 x 24 paper
+  createCanvas(cSize + cSize/3, cSize, SVG);//canvas size is set to 4:3 ratio for 18 x 24 paper
   noFill();
   ellipseMode(CENTER);
 
