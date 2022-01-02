@@ -14,11 +14,11 @@ function draw() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, windowHeight * 2);
 }
 
 function squ() {
-  for (var y = 0; y < windowHeight; y = y + 120){
+  for (var y = 0; y < windowHeight * 2; y = y + 120){
      for (var x = 0; x < windowWidth; x = x + 120){
      square(80 + x, random (10, 90) + y, random (10, 40));
 }
@@ -28,7 +28,7 @@ function squ() {
 
   function zigzag() {
     translate(20, 0);
-    for (var y = 0; y < windowHeight; y = y + 120) {
+    for (var y = 0; y < windowHeight * 2; y = y + 120) {
       for (var x = 0; x < windowWidth; x = x + 120) {
 
         line(random (0, 20) + x, random (0, 20) + y, x + 40, y + 40); //1st diagonal
