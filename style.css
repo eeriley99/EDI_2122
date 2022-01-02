@@ -20,10 +20,16 @@ h1{
      left: 50%;
      transform: translateX(-50%) translateY(-50%);
      text-align: center;
+     top: 0%;
 }
 
 p{
+    position: absolute;
     font-size: 0.875em;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align:center;
+    top: 5%;
 }
 
 table{
