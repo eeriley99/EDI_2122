@@ -13,11 +13,11 @@ function draw() {
 
   var windowPad = 40; //padding around circle array
   var windowPane = (cSize - 2 * windowPad); //size of window in pixels
-  var num = 20; //circles in array x,y direction
+  var num = 4; //circles in array x,y direction
 
   var sizeCirc = windowPane / num //size of individual circle in the array
 
-  var r = sizeCirc / 2;//radius of circle
+  var r = sizeCirc /2;//radius of circle
 
   translate(windowPad, windowPad) - r; //starting point of window
 
