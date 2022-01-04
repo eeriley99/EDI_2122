@@ -6,25 +6,25 @@ this will save an SVG file in your download folder
 */
 
 function setup() {
-  createCanvas(200, 200); // Create SVG Canvas
+  createCanvas(600, 600, SVG); // Create SVG Canvas
   strokeWeight(1); // do 0.1 for laser
   stroke(255, 0, 0); // red is good for laser
   noFill(); // better not to have a fill for laser
-background (230);
+
 }
 
 
 function draw() {
 
 translate (width/2, height/2);
-for (var y = -100; y < 100; y = y + 10){
-for (var x = -100; x < 100; x = x + 10){
+for (var y = -300; y < 300; y = y + 60){
+for (var x = -300; x < 300; x = x + 60){
 line (0, 0, x, y);
 }
 }
 
 
-  save("mySVG.svg"); // give file name
+  save("starburstV2.svg"); // give file name
   print("saved svg");
   noLoop(); // we just want to export once
 }
