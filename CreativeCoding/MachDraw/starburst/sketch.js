@@ -1,6 +1,6 @@
 
 function setup() {
-  createCanvas(720, 400);
+  createCanvas(720, 400, SVG);
   background(230);
   frameRate (10);
 }
