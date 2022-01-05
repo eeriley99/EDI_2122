@@ -23,7 +23,7 @@ this will save an SVG file in your download folder
 //   noLoop(); // we just want to export once
 // }
 function setup() {
-  createCanvas(200, 200);
+  createCanvas(200, 200, SVG);
   background(230);
   strokeWeight(2);
 }
