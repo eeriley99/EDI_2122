@@ -3,7 +3,6 @@ let y = 0.25;
 
 function setup() {
   createCanvas(400, 400, SVG);
-  //background(220);
   translate(width / 2, height / 2);
   noFill();
 

@@ -16,9 +16,9 @@ function setup() {
 
 function draw() {
 
-translate (width/2, height/2);
-for (var y = -300; y < 300; y = y + 60){
-for (var x = -300; x < 300; x = x + 60){
+translate (width/2 + 20, height/2 + 20);
+for (var y = -300; y < 300; y = y + 40){
+for (var x = -300; x < 300; x = x + 40){
 line (0, 0, x, y);
 }
 }
