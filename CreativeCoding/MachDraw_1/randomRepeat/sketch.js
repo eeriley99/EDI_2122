@@ -12,14 +12,17 @@ function setup() {
   strokeWeight(1); // do 0.1 for laser
   stroke(255, 0, 0); // red is good for laser
   noFill(); // better not to have a fill for laser
+  background (230)
 }
 
 function draw() {
-  for (x = 0; x < 10; x++) {
-    for (y = 0; y < 10; y++) {
-      rect(x * 10, y * 10, x, y);
-    }
+  translate ( ((pW * 72) - 600)/2, ((pH * 72) - 600)/2);
+  for (var y = 0; y < 600; y = y + 100){
+  for (var x = 0; x < 600; x = x + 100){
+    line (x, y, x + random (60, 100), y + random (60, 100));
   }
+}
+
   // save("mySVG.svg"); // give file name
   // print("saved svg");
   noLoop(); // we just want to export once
