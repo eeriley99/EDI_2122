@@ -9,7 +9,6 @@ function setup() {
   createCanvas(600, 600, SVG); // Create SVG Canvas
   strokeWeight(1); // do 0.1 for laser
   stroke(255, 0, 0); // red is good for laser
-  strokeWeight (3);
   noFill(); // better not to have a fill for laser
 
 }
