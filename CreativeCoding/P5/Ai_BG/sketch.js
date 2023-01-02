@@ -19,5 +19,5 @@ function draw (){
       }
 }
 
-  noLoop ();
+  //noLoop ();
 }
