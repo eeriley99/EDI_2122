@@ -51,14 +51,6 @@ td {
     vertical-align: baseline;
     padding-top:10px;
     text-align:center;
-    table-layout: fixed
-
-    &:after, &:before {
-        content: '';
-
-        display: block;
-        padding-bottom: calc(50% - 0.5em);
-    }
 }
 
 .container{
